@@ -1,0 +1,23 @@
+button {
+    background: none;
+    border: none;
+    margin-right: 15px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button:last-child {
+    margin-right: 0;
+}
+  
+.button-primary {
+    background: #05b55b;
+    color: #fff;
+    border: 1px solid #05b55b;
+}
+  
+.button-secondary {
+    background: #fff;
+    color: #05b55b;
+    border: 1px solid #05b55b;
+}

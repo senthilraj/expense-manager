@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 980px;
+}
+
+[class*="grid"] {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.clearfix {
+  clear: both;
+}
+
+a {
+  color: #05b55b;
+  text-decoration: none;
+}
+
+header {
+  background-color: #05b55b;
+  color: #FFF;
+  height: 50px;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+  padding: 0 15px;
+}
+
+.logo {
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+
+.button-container {
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .grid-3 {
+    padding: 0 15px;
+    width: 33.3%;
+    display: inline-block;
+  }
+  .grid-5 {
+    padding: 0 15px;
+    width: 50%;
+    display: inline-block;
+  }
+}

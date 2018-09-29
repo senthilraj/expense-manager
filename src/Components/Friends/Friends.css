@@ -1,0 +1,17 @@
+.advance-form-group {
+    margin-bottom: 20px;
+}
+  
+.advance-form-group input {
+    height: 22px;
+}
+.advance-form-group li {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.advance-form-group p {
+    margin: 10px 0;
+    font-size: 14px;
+    font-weight: 700;
+}

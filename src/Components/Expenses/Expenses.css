@@ -1,0 +1,19 @@
+.selected-friends {
+    margin: 0 10px;
+    height: 70px;
+    overflow: auto;
+}
+
+.multi-select,.selected-friends {
+    width: 120px;
+}
+
+.select-all-text, .selected-friends {
+    font-size: 12px;
+}
+
+.selected-friends > span {
+    display: block;
+    font-style: italic;
+    color: rgb(124, 124, 124);
+}

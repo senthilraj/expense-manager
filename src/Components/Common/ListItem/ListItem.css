@@ -1,0 +1,12 @@
+.list-item {
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 3px #ddd;
+    border-left: 3px solid #05b55b;
+    padding: 10px;
+    cursor: pointer;
+}
+.list-item strong {
+    margin-right: 10px;
+}

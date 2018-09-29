@@ -1,0 +1,26 @@
+.list-wrapper {
+    margin-top: 60px;
+}
+
+.list-wrapper:first-child {
+    margin-right: 20px;
+}
+
+.list-wrapper:last-child {
+    margin-left: 20px;
+}
+
+.list-title {
+    font-size: 22px;
+    font-weight: 600;
+    padding-right: 15px;
+    border-bottom: 5px solid #05b55b;
+    display: inline-block;
+}
+
+.list {
+    list-style: none;
+    margin-top: 20px;
+    height: 300px;
+    overflow: auto;
+}
